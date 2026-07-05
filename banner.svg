@@ -1,0 +1,66 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.48" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1F6FEB"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="300" y1="80" x2="1100" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#1F6FEB"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.345 0 0 0 0 0.651 0 0 0 0 1 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="34" fill="url(#grid)"/>
+
+  <circle cx="1160" cy="80" r="190" fill="#58A6FF" opacity="0.10" filter="url(#glow)"/>
+  <circle cx="112" cy="330" r="150" fill="#1F6FEB" opacity="0.16" filter="url(#glow)"/>
+
+  <path d="M975 86C1082 65 1178 104 1242 186C1307 268 1323 354 1290 408H1400V0H970C969 27 967 56 975 86Z" fill="#58A6FF" opacity="0.10"/>
+  <path d="M0 308C95 271 188 289 282 342C357 385 450 406 555 387V420H0V308Z" fill="#58A6FF" opacity="0.09"/>
+
+  <g transform="translate(88 82)">
+    <rect width="250" height="250" rx="42" fill="#0D1117" stroke="#58A6FF" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="125" cy="88" r="44" fill="url(#blue)" opacity="0.95"/>
+    <path d="M62 200C72 154 98 134 125 134C152 134 178 154 188 200" stroke="#58A6FF" stroke-width="18" stroke-linecap="round"/>
+    <path d="M88 88C104 72 118 62 137 62C160 62 178 77 184 100" stroke="#0D1117" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <text x="125" y="230" text-anchor="middle" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial" font-size="18" font-weight="700">WEB + DESIGN</text>
+  </g>
+
+  <g transform="translate(392 118)">
+    <text x="0" y="0" fill="#8B949E" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="600" letter-spacing="3">PORTFOLIO PROFILE</text>
+    <text x="0" y="72" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial" font-size="66" font-weight="800">Tayná Goes</text>
+    <text x="0" y="124" fill="#58A6FF" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="700">Web Developer • UI/UX Designer • Digital Creator</text>
+    <text x="0" y="177" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial" font-size="23" font-weight="500">Clean Code • Interfaces Modernas • Experiências Digitais</text>
+  </g>
+
+  <g transform="translate(394 332)">
+    <rect width="152" height="42" rx="21" fill="#58A6FF" opacity="0.16" stroke="#58A6FF" stroke-opacity="0.55"/>
+    <text x="76" y="27" fill="#FFFFFF" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="700">HTML</text>
+
+    <rect x="166" width="152" height="42" rx="21" fill="#58A6FF" opacity="0.16" stroke="#58A6FF" stroke-opacity="0.55"/>
+    <text x="242" y="27" fill="#FFFFFF" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="700">React</text>
+
+    <rect x="332" width="152" height="42" rx="21" fill="#58A6FF" opacity="0.16" stroke="#58A6FF" stroke-opacity="0.55"/>
+    <text x="408" y="27" fill="#FFFFFF" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="700">PHP</text>
+
+    <rect x="498" width="152" height="42" rx="21" fill="#58A6FF" opacity="0.16" stroke="#58A6FF" stroke-opacity="0.55"/>
+    <text x="574" y="27" fill="#FFFFFF" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="700">Figma</text>
+
+    <rect x="664" width="152" height="42" rx="21" fill="#58A6FF" opacity="0.16" stroke="#58A6FF" stroke-opacity="0.55"/>
+    <text x="740" y="27" fill="#FFFFFF" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="700">UI/UX</text>
+  </g>
+</svg>
