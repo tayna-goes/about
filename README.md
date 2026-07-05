@@ -12,6 +12,11 @@
 
 </div>
 
+<div align="center">
+
+<img width="100%" src="banner.svg" alt="Banner Tayná Goes - Web Developer e UI/UX Designer"/>
+
+<br>
 ---
 
 # 👋 Olá!
@@ -98,6 +103,11 @@ Atualmente desenvolvo:
 
 <div align="center">
 
+
+<a href="https://tayna-goes.infinityfreeapp.com/">
+<img src="https://img.shields.io/badge/Portfólio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF"/>
+</a>
+
 <a href="mailto:tayynagoes@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
@@ -109,6 +119,7 @@ Atualmente desenvolvo:
 <a href="https://wa.me/5518988071968">
 <img src="https://img.shields.io/badge/WhatsApp-0D1117?style=for-the-badge&logo=whatsapp&logoColor=25D366"/>
 </a>
+
 
 </div>
 
