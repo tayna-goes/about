@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="Tayná Goes - Web Developer e UI/UX Designer"/>
+<img width="100%" src="banner.svg" alt="Tayná Goes - Web Developer e UI/UX Designer"/>
 
 <br>
 
